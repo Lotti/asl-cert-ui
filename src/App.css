@@ -1,0 +1,96 @@
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+  margin: 20px;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.alignLeft {
+  text-align: left;
+}
+
+#avatar {
+  width: 150px;
+  height: auto;
+}
+
+#footer {
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.classe.ant-menu-item-disabled {
+  text-align: center;
+  color: #FFF !important;
+  font-size: 22px;
+}
+
+.badge-container {
+  margin-bottom: 25px;
+}
+
+.badge-container .title {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.badge-container .badge {
+  position: relative;
+  width: 145px;
+  height: 145px;
+  margin: 0 auto;
+}
+
+.badge-container .badge img {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: 120px;
+}
+
+.badge-container .badge .ant-progress {
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+
+.ant-collapse-content {
+  background: transparent;
+}
+
+.dettaglio {
+  text-align: left;
+}
